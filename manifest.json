@@ -1,0 +1,15 @@
+{
+  "name": "Ultrawidly",
+  "description": "Fixes the disney video player for ultrawide monitors",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "declarativeContent", "activeTab", "scripting",
+  "http://*/",
+  "https://*/"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
